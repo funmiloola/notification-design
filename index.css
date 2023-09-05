@@ -1,0 +1,99 @@
+body{
+    font-family:Plus Jakarta Sans;
+    width:1440px;
+    height:auto;
+}
+.container{
+    border:2px solid black;
+    width:700px;
+    margin:20px auto;
+    height:auto;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+}
+.notification-btn{
+    border-radius: 4px;
+    background:blue;
+    transform:translateY(-5px);
+}
+.first-notification{
+    border:2px solid blue;
+}
+.article{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+ .notification{
+    border:2px solid blue;
+    padding:5px 5px 5px 20px;
+    margin:0 auto 10px auto;
+    background:pink;
+    width:580px;
+    border-radius: 24px;
+    
+}
+.notification-badge{
+    width:7px;
+    height:5px;
+    background-color:red;
+    border-radius: 100%;
+    margin-right:-20px;
+    margin-top:-35px;
+}
+.time{
+    padding-left:95px;
+    margin-top:-40px;
+    display:block;
+     
+}
+p{
+    margin-top:-20px;
+}
+.private-message{
+     border:2px solid blue;
+     padding: 1.5rem 2rem 0rem 0.5rem;
+     width:500px;
+     margin-bottom:0;
+     margin-left:40px;
+     border-radius:24px;
+     display:none;
+}
+.show-message.private-message{
+    order:2px solid blue;
+     padding: 1.5rem 2rem 0rem 0.5rem;
+     width:500px;
+     margin-bottom:0;
+     margin-left:40px;
+     border-radius:24px;
+     display:block;
+}
+.show-text.private-message{
+    border:2px solid blue;
+    padding: 1.5rem 2rem 0rem 0.5rem;
+    width:500px;
+    margin-bottom:0;
+    margin-left:40px;
+    border-radius:24px;
+}
+.picture-uploaded{
+    margin-left:80px;
+}
+.mark-all-as-read.notification{
+    border:2px solid blue;
+    padding:5px 5px 5px 20px;
+    margin:0 auto 10px auto;
+    background:rgba(204, 204, 204, 0.961);
+    width:580px;
+    border-radius: 24px;
+}
+.mark-all-as-read.notification-badge{
+    display:none;
+}
+.secondary-button{
+    border:none;
+    background:none;
+    cursor:pointer;
+}
